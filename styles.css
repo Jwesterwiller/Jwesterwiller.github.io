@@ -1,0 +1,72 @@
+body {
+    background-color: #990000;
+}
+#name_header {
+    color: white;
+    background-color: #990000;
+    text-align: center;
+    font-size: 350%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+.content_container{
+    background: white;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-style:solid;
+    border-width:2px;
+    border-color: gold;
+    min-width: 235px;
+}
+.my_intro_container {
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    margin: 1px;
+}
+.image_container {
+    float:left;
+    min-width: 225px;
+    margin:10px;
+}
+.image_size{
+    max-width:225px;
+}
+.text_container {
+    background-color: transparent;
+    color: black;
+    width:48%;
+    margin: 20px;
+    text-align: justify;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+}
+    .goals_text {
+      width: 100%;
+
+}
+@media only screen and (max-width: 950px) {
+  [class*="text_container"] {
+    width: 100%;
+  }
+}
+hr.new1 {
+  border-top: 3px solid gold;
+}
+.resume {
+  background-color: transparent;
+  color: black;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Times New Roman", Times, serif;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+heading {
+   font-weight:bold;
+   font-size: 110%;
+}
